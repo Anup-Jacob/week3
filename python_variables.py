@@ -11,7 +11,14 @@
 
 if __name__ == "__main__":
 
-    tuple_test = ("L12345", "L54321")
+    x = input("Enter the L-Number1 : ")
+
+    print(" The L-number you have entered is : "+x)
+
+    y = input("Enter the L-number2 : ")
+
+    print(" The L-number you have entered is : " + y)
+    tuple_test = (x, y)
     # Tuple list of 2 fake Lnumbers for students
     module_list = ["Java_ooprogramming","Python_Scripting"]
     # List of 2 module subjects to be assigned to the students
@@ -21,16 +28,16 @@ if __name__ == "__main__":
 
     # Printing tuple lists for check
 
-    student1_details = {"L12345":module_list}
-    student2_details = {"L54321":module_list}
+    student1_details = {x:module_list}
+    student2_details = {y:module_list}
     # Dictionary for L number and module list
 
-    java_stud1 = {"L12345": 40}
-    java_stud2 = {"L54321": 70}
+    java_stud1 = {x: 40}
+    java_stud2 = {y: 70}
     # Dictionary for L number and Java grade for both students
 
-    python_stud1 = {"L12345": 69}
-    python_stud2 = {"L54321": 58}
+    python_stud1 = {x: 69}
+    python_stud2 = {y: 58}
     # Dictionary for L number and python grade for both students
 
     print("\n")
@@ -58,13 +65,7 @@ if __name__ == "__main__":
     print(student2_details)
 
 
-    # x = input("Enter the L-Number1 : ")
 
-    # print(" The L-number you have entered is : "+x)
-
-    # y = input("Enter the L-number2 : ")
-
-    # print(" The L-number you have entered is : " + y)
 
     #Student1_details = [x,"Java_ooprogramming","Python_Scripting"]
     #Student2_details = [y, "Java_ooprogramming", "Python_Scripting"]
