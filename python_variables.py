@@ -41,6 +41,8 @@ if __name__ == "__main__":
     print(python_stud1)
     # returns Student 1 grades
 
+    print(student1_details)
+
     # Printing grade details of Student 1
 
     print("\n")
@@ -53,7 +55,6 @@ if __name__ == "__main__":
 
     # returns Student 2 grades
 
-    print(student1_details)
     print(student2_details)
 
 
