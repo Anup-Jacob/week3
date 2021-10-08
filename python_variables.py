@@ -25,8 +25,9 @@ if __name__ == "__main__":
     module_list = ["Java_ooprogramming","Python_Scripting"]
     # List of 2 module subjects to be assigned to the students
 
-    print(tuple_test)
-    print(module_list)
+    # print(tuple_test)
+    # print(module_list)
+    # To check the intermiediate solution
 
     # Printing tuple lists for check
 
