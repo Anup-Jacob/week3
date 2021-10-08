@@ -39,6 +39,7 @@ if __name__ == "__main__":
     print("Student 1 grades : ")
     print(java_stud1)
     print(python_stud1)
+    # returns Student 1 grades
 
     # Printing grade details of Student 1
 
@@ -49,6 +50,8 @@ if __name__ == "__main__":
     print("Student 2 grades : ")
     print(java_stud2)
     print(python_stud2)
+
+    # returns Student 2 grades
 
     print(student1_details)
     print(student2_details)
@@ -73,24 +76,3 @@ if __name__ == "__main__":
 
     print("\n")
 print("Thank you for using my application")
-'''
-
-   Main method of application 
-
-
-
-   Linear programming only presented here wrt demo of lists
-
-
-
-   Parameters:
-
-    none
-
-
-
-   Returns:
-
-    none
-
-  '''
