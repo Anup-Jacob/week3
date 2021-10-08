@@ -11,6 +11,11 @@
 
 if __name__ == "__main__":
     tuple_test = ("L12345", "L54321")
+    module_list = ["Java_ooprogramming","Python_Scripting"]
+
+
+    print(tuple_test)
+    print(module_list)
 
     # x = input("Enter the L-Number1 : ")
 
@@ -20,13 +25,13 @@ if __name__ == "__main__":
 
     # print(" The L-number you have entered is : " + y)
 
-    Student1_details = [x,"Java_ooprogramming","Python_Scripting"]
-    Student2_details = [y, "Java_ooprogramming", "Python_Scripting"]
+    #Student1_details = [x,"Java_ooprogramming","Python_Scripting"]
+    #Student2_details = [y, "Java_ooprogramming", "Python_Scripting"]
 
-    print("The details of Student 1 is ")
-    print(Student1_details)
-    print("The details of Student 2 is ")
-    print(Student2_details)
+    #print("The details of Student 1 is ")
+    #print(Student1_details)
+    #print("The details of Student 2 is ")
+    #print(Student2_details)
 
 
 
