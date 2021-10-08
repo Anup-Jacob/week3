@@ -64,17 +64,7 @@ if __name__ == "__main__":
 
     print(student2_details)
 
-
-
-
-    #Student1_details = [x,"Java_ooprogramming","Python_Scripting"]
-    #Student2_details = [y, "Java_ooprogramming", "Python_Scripting"]
-
-    #print("The details of Student 1 is ")
-    #print(Student1_details)
-    #print("The details of Student 2 is ")
-    #print(Student2_details)
-
-
     print("\n")
 print("Thank you for using my application")
+
+# End of the code
