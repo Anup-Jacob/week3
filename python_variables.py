@@ -12,10 +12,12 @@
 if __name__ == "__main__":
 
     x = input("Enter the L-Number1 : ")
+    # Taking First L-Number as the input
 
     print(" The L-number you have entered is : "+x)
 
     y = input("Enter the L-number2 : ")
+    # Taking First L-Number as the input
 
     print(" The L-number you have entered is : " + y)
     tuple_test = (x, y)
