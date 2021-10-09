@@ -4,7 +4,7 @@
 # Author        : Anup Jacob
 # Version       : v1.0
 # Created Date  : 08/10/2021
-# Modified Date : 08/10/2021
+# Modified Date : 09/10/2021
 # Description   : Testing the functionality of List, Tuples
 # Licensing     : Anup Jacob, LYIT
 # ----------------------------------
@@ -20,9 +20,9 @@ if __name__ == "__main__":
     # Taking First L-Number as the input
 
     print(" The L-number you have entered is : " + y)
-    tuple_test = (x, y)
+    #tuple_test = (x, y)
     # Tuple list of 2 fake Lnumbers for students
-    module_list = ["Java_ooprogramming","Python_Scripting"]
+    #module_list = ["Java_ooprogramming","Python_Scripting"]
     # List of 2 module subjects to be assigned to the students
 
     # print(tuple_test)
@@ -31,41 +31,54 @@ if __name__ == "__main__":
 
     # Printing tuple lists for check
 
-    student1_details = {x:module_list}
-    student2_details = {y:module_list}
+    #student1_details = {x:module_list}
+    #student2_details = {y:module_list}
     # Dictionary for L number and module list
 
-    java_stud1 = {x: 40}
-    java_stud2 = {y: 70}
-    # Dictionary for L number and Java grade for both students
+    #java_stud1 = {x: 40}
+    #java_stud2 = {y: 70}
+    module1 = {"name": "Java_ooprogramming", "stud1": 40, "stud2": 70}
+    module2 = {"name": "Python_Scripting", "stud1": 69, "stud2": 58}
+    # Dictionary for L number, Java and python grades for both students
 
-    python_stud1 = {x: 69}
-    python_stud2 = {y: 58}
+    #python_stud1 = {x: 69}
+    #python_stud2 = {y: 58}
     # Dictionary for L number and python grade for both students
 
-    print("\n")
+    #print(module1["stud1"])
+    #Check for the module mark value
+
+    #stud1 = {java_stud1,python_stud1[x]}
+
+    print("")
 
 
-    print("Student 1 grades : ")
-    print(java_stud1)
-    print(python_stud1)
+    print("Student 1 details are as follows : ")
+    #print(stud1)
+    print ("The L-number of the Student 1 is "+x)
+    print("The grade of the module, "+module1["name"]+" is : "+format(module1["stud1"]))
+    print("The grade of the module, " + module2["name"] + " is : " + format(module2["stud1"]))
     # returns Student 1 grades
 
-    print(student1_details)
+    #print(student1_details)
 
     # Printing grade details of Student 1
 
-    print("\n")
+    print("")
 
     # Printing grade details of Student 2
 
-    print("Student 2 grades : ")
-    print(java_stud2)
-    print(python_stud2)
+    print("Student 2 Details are as follows : ")
+    #print(java_stud2[1])
+    #print(python_stud2)
+    # print(stud2)
+    print("The L-number of the Student 2 is " + y)
+    print("The grade of the module, " + module1["name"] + " is : " + format(module1["stud2"]))
+    print("The grade of the module, " + module2["name"] + " is : " + format(module2["stud2"]))
 
     # returns Student 2 grades
 
-    print(student2_details)
+    #print(student2_details)
 
     print("\n")
 print("Thank you for using my application")
