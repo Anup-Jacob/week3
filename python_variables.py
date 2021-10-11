@@ -41,10 +41,10 @@ if __name__ == "__main__":
     j = "Java_ooprogramming"
     k = "Python_Scripting"
 
-    stud1_det = {"lnumb": x, j: 40, k: 69}
-    stud2_det = {"lnumb": y, j: 70, k: 58}
-    module1 = {"name": j, "stud1": 40, "stud2": 70}
-    module2 = {"name": k, "stud1": 69, "stud2": 58}
+    #stud1_det = {"lnumb": x, j: 40, k: 69}
+    #stud2_det = {"lnumb": y, j: 70, k: 58}
+    module1 = {"name": j, x: 40, y: 70}
+    module2 = {"name": k, x: 69, y: 58}
     # Dictionary for L number, Java and python grades for both students
 
     #python_stud1 = {x: 69}
@@ -62,8 +62,8 @@ if __name__ == "__main__":
     print("Student 1 details are as follows : ")
     #print(stud1)
     print ("The L-number of the Student 1 is "+x)
-    print("The grade of the module, "+ j +" is : "+format(stud1_det[j]))
-    print("The grade of the module, " + k + " is : " + format(stud1_det[k]))
+    print("The grade of the module, "+ j +" is : "+format(module1[x]))
+    print("The grade of the module, " + k + " is : " + format(module2[x]))
     # returns Student 1 grades
 
     #print(student1_details)
@@ -79,8 +79,8 @@ if __name__ == "__main__":
     #print(python_stud2)
     # print(stud2)
     print("The L-number of the Student 2 is " + y)
-    print("The grade of the module, " + j + " is : " + format(stud2_det[j]))
-    print("The grade of the module, " + k + " is : " + format(stud2_det[k]))
+    print("The grade of the module, " + j + " is : " + format(module1[y]))
+    print("The grade of the module, " + k + " is : " + format(module2[y]))
 
     # returns Student 2 grades
 
