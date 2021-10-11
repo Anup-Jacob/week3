@@ -20,23 +20,6 @@ if __name__ == "__main__":
     # Taking First L-Number as the input
 
     print(" The L-number you have entered is : " + y)
-    #tuple_test = (x, y)
-    # Tuple list of 2 fake Lnumbers for students
-    #module_list = ["Java_ooprogramming","Python_Scripting"]
-    # List of 2 module subjects to be assigned to the students
-
-    # print(tuple_test)
-    # print(module_list)
-    # To check the intermiediate solution
-
-    # Printing tuple lists for check
-
-    #student1_details = {x:module_list}
-    #student2_details = {y:module_list}
-    # Dictionary for L number and module list
-
-    #java_stud1 = {x: 40}
-    #java_stud2 = {y: 70}
 
     j = "Java_ooprogramming"
     k = "Python_Scripting"
@@ -47,14 +30,6 @@ if __name__ == "__main__":
     module2 = {"name": k, x: 69, y: 58}
     # Dictionary for L number, Java and python grades for both students
 
-    #python_stud1 = {x: 69}
-    #python_stud2 = {y: 58}
-    # Dictionary for L number and python grade for both students
-
-    #print(module1["stud1"])
-    #Check for the module mark value
-
-    #stud1 = {java_stud1,python_stud1[x]}
 
     print("")
 
@@ -65,10 +40,6 @@ if __name__ == "__main__":
     print("The grade of the module, "+ j +" is : "+format(module1[x]))
     print("The grade of the module, " + k + " is : " + format(module2[x]))
     # returns Student 1 grades
-
-    #print(student1_details)
-
-    # Printing grade details of Student 1
 
     print("")
 
